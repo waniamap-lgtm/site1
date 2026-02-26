@@ -20,9 +20,9 @@
     <section id="sobre">
         <h2>Sobre mim</h2>
         <img src="https://media.licdn.com/dms/image/v2/C4E03AQEVXo1peRP5Yw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622940666172?e=1773273600&v=beta&t=2tjNoEh5eC6prbQewTMobZPNTRYOvOl7jVuuul467mA
-        " alt="Foto de perfil de Wania M A Pereira" title="Foto de perfil">
+                        " alt="Foto de perfil de Wania M A Pereira" title="Foto de perfil">
         <article>
-            <p>Bem-vindo ao meu portfólio! Sou Wania M A Pereira, uma profissional dedicada e apaixonada pelo que faço.
+            <p>Bem-vindo ao meu portfólio! Sou Wania Pereira, uma profissional dedicada e apaixonada pelo que faço.
                 Este portfólio é uma coleção dos meus trabalhos e projetos mais recentes. Sinta-se à vontade para
                 explorar e conhecer um pouco mais sobre mim e minhas habilidades.</p>
         </article>
@@ -44,6 +44,35 @@
                 apresenta uma navegação intuitiva, permitindo que os visitantes explorem facilmente meu conteúdo.</p>
         </article>
     </section>
+    <section>
+        <h2>Habilidades e tecnologias</h2><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologias</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Intermediário</td>
+                    <td>Capaz de criar estruturas de páginas web semânticas e acessíveis.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Habilidade em estilizar páginas web, criando layouts responsivos e designs atraentes.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediário</td>
+                    <td>Conhecimento em manipulação do DOM, eventos e desenvolvimento de funcionalidades interativas.</td>
+                </tr>
+        </table>
+
+    </section>
     <footer>
         <p>&copy; 2024 Wania M A Pereira. Todos os direitos reservados.</p>
         <section id="contatos">
@@ -53,8 +82,37 @@
                 Email: <a href="mailto:wmconsedu@outlook.com">wmconsedu@outlook.com</a><br>
                 Whatsapp: <a href="tel:+55(48) 9 9999-9999">+55(48) 9 9999-9999</a>
             </address>
+            <p>Você pode me enviar uma mensagem pelo WhatsApp, email ou preenchendo o formulário abaixo!</p>
+            
+            <form action="">
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br>
+    
+            <label for="assunto">Assunto:</label><br>
+            <select name="Assunto" id="assunto-select">
+                <option value="Orçamento">Orçamento</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" cols="30" rows="10" required></textarea>
+            <br>
+            <input type="checkbox" name="inscricao" id="inscricao">
+            <label for="inscricao">Desejo me inscrever na newsletter!</label>
+    
+            <br>
+            <input type="submit" value="Enviar a mensagem">
+        </form>
+    
         </section>
     </footer>
-
-</body>
-</html>
+    
+    </body>
+    
+    </html>
